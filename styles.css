@@ -48,6 +48,12 @@ section {
     width: 300px;
 }
 
+.producto img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
 .producto {
     display: inline-block;
     background: rgba(22, 245, 245, 0.61);
@@ -55,13 +61,6 @@ section {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.producto img {
-    width: 200px;  
-    height: 200px; 
-    object-fit: cover; 
-    border-radius: 10px; 
 }
 
 button {
